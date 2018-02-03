@@ -10,6 +10,7 @@ import seaborn as sns
 train = pd.read_csv('./Titanic Data/train.csv')
 test = pd.read_csv('./Titanic Data/test.csv')
 
+print(train.info())
 sns.set_style('whitegrid')
 
 # Heat map to figure out the missing data
